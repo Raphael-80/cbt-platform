@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Menu, Bell } from "lucide-react"
 import { Outlet } from "react-router-dom"
-import LecturerSidebar from "../components/lecturer/LecturerSideBar"
+import LecturerSidebar from "../components/lecturer/LecturerSidebar"
 
 export default function LecturerLayout() {
     const [sidebarOpen, setSidebarOpen] = useState(false)
